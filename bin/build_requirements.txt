@@ -1,30 +1,30 @@
 -r ../requirements.txt
-
-# isort
-isort==4.3.21
+attrs==21.2.0
 
 # static analysis
 autopep8==1.4.3
 bandit==1.7.0
+behave==1.2.6
+black==21.11b1
+
+# testing
+coverage==5.5
+coverage_conditional_plugin==0.4.0
 flake8==3.6.0
+httpretty==1.1.4
+
+# isort
+isort==4.3.21
 pep8-naming==0.7.0
+pre_commit==2.16.0
 pycodestyle==2.4.0
 pylint==2.3.0
 pylint-flask==0.6
 pylint-flask-sqlalchemy==0.2.0
-
-# testing
-coverage==5.5
-pytest-freezegun==0.3.0
 pytest==6.2.5
-pytest-flask==1.2.0
-pytest-mock==3.6.1
 pytest-cov==2.12.1
-httpretty==1.1.4
-behave==1.2.6
-attrs==21.2.0
-wheel==0.33.6
+pytest-flask==1.2.0
+pytest-freezegun==0.3.0
+pytest-mock==3.6.1
 sqlparse==0.4.1
-black==21.11b1
-coverage_conditional_plugin==0.4.0
-pre_commit==2.16.0
+wheel==0.33.6

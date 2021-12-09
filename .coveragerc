@@ -1,9 +1,9 @@
 [run]
-source = 
+source =
     src
 parallel = True
 branch = True
-omit = 
+omit =
     # Don't complain if non-runnable code isn't run
     */__main__.py
     *tests*

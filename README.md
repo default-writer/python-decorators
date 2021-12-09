@@ -9,10 +9,10 @@ Default template for working with Python Decorators from Visual Studio Code
 - apply chmod +x for ./bin utilities
 
 ```bash
-chmod +x ./bin/build.sh 
-chmod +x ./bin/format.sh 
-chmod +x ./bin/lint.sh 
-chmod +x ./bin/test.sh 
+chmod +x ./bin/build.sh
+chmod +x ./bin/format.sh
+chmod +x ./bin/lint.sh
+chmod +x ./bin/test.sh
 chmod +x ./bin/update.sh
 ```
 
@@ -33,4 +33,3 @@ status=$?
 status=$?
 [ $status -eq 0 ] && echo "SUCCESS" || exit 1
 ```
-

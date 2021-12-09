@@ -507,5 +507,5 @@ cython_debug/
 
 
 # Git ignore
-./bin
+./bin/*
 !./bin/**/*
