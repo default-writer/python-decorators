@@ -61,7 +61,8 @@
 		"vsls-contrib.codetour",
 		"ryanluker.vscode-coverage-gutters",
 		"svipas.control-snippets",
-		"sabitovvt.favorites-panel"
+		"sabitovvt.favorites-panel",
+		"sonarsource.sonarlint-vscode"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
