@@ -504,3 +504,8 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+
+# Git ignore
+./bin
+!./bin/**/*
