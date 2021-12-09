@@ -62,7 +62,8 @@
 		"ryanluker.vscode-coverage-gutters",
 		"svipas.control-snippets",
 		"sabitovvt.favorites-panel",
-		"sonarsource.sonarlint-vscode"
+		"sonarsource.sonarlint-vscode",
+		"redhat.java"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
