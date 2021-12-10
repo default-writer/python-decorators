@@ -11,9 +11,17 @@
     "python.testing.pytestEnabled": true,
     "python.languageServer": "Default",
     "editor.useTabStops": false,
-    "editor.fontFamily": "Cascadia Code Light, Anonymous Pro, Vin Mono Pro Light, Fira Code, ScopeOne, Consolas, 'Courier New', monospace",
     // @sync os=linux
     "java.home": "/usr/local/openjdk-11/bin/java",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Cascadia Code Light, Anonymous Pro, Vin Mono Pro Light, Fira Code, ScopeOne, Consolas, 'Courier New', monospace",
+    "testing.autoRun.mode": "all",
+    "testExplorer.addToEditorContextMenu": true,
     // @sync os=windows
     // "java.home": "C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot",
+    // "workbench.colorTheme": "Tomorrow Night Blue"
+    // "editor.fontSize": 14
+    // "editor.fontFamily": "Cascadia Code Light, Anonymous Pro, Vin Mono Pro Light, Fira Code, ScopeOne, Consolas, 'Courier New', monospace",
+    // "testing.autoRun.mode": "all",
 }

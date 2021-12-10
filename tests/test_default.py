@@ -19,9 +19,13 @@ def test_get_datetime(mock_datetime):
 class TestDefault(unittest.TestCase):
     """Default methods tests"""
 
-    def test_get_datetime(self):
+    @patch("datetime_service.datetime")
+    def test_get_datetime(self, mock_datetime):
         """Method test"""
-        pass
+        expected = datetime.strptime("2021-01-01 00:00:00", "%Y-%m-%d %H:%M:%S")
+        mock_datetime.now = lambda: expected
+        actual = get_datetime()
+        assert actual == expected
 
 
 if __name__ == "__main__":

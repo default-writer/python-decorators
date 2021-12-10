@@ -63,7 +63,8 @@
 		"sabitovvt.favorites-panel",
 		"sonarsource.sonarlint-vscode",
 		"redhat.java",
-		"shan.code-settings-sync"
+		"shan.code-settings-sync",
+		"connorshea.vscode-test-explorer-status-bar"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
