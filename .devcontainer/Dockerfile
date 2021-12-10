@@ -37,7 +37,9 @@ RUN chmod +x /tmp/dotnet-install.sh && /tmp/dotnet-install.sh
 
 # [Optional]
 # JAVA 110.3 Sdk install
-RUN apt-get update; \
+RUN set -eux; \
+	\
+	apt-get update; \
 	apt-get install -y --no-install-recommends \
 		bzip2 \
 		unzip \
