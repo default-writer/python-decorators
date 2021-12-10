@@ -18,11 +18,12 @@
             "envFile": "${workspaceFolder}/.env"
         },
         {
-            "name": "Python: Current File",
+            "name": "Python: debug app",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "preLaunchTask": "pip3: install requirements"
         }
     ]
 }
