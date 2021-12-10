@@ -33,7 +33,6 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"runarsf.platform-settings",
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 		"eamodio.gitlens",
@@ -63,7 +62,8 @@
 		"svipas.control-snippets",
 		"sabitovvt.favorites-panel",
 		"sonarsource.sonarlint-vscode",
-		"redhat.java"
+		"redhat.java",
+		"shan.code-settings-sync"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
